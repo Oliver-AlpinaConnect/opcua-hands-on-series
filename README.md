@@ -52,7 +52,7 @@ OPCUA-HANDS-ON-SERIES/
 To follow along with the demos without needing expensive industrial software, I recommend the following tools:
 
 * **For Modbus Testing:** Use [ModbusTCP-CLI](https://github.com/Oliver-AlpinaConnect/modbustcp-cli) — a simple, free command-line tool to connect to Modbus TCP servers without needing to purchase dedicated software.
-* **For OPC UA Browsing:** I use the **Prosys OPC UA Browser**. It is a powerful, free tool for visualizing the address space and metadata of any OPC UA server.
+* **For OPC UA Browsing:** I use the [Prosys OPC UA Browser](https://prosysopc.com/products/opc-ua-browser/). It is a powerful, free tool for visualizing the address space and metadata of any OPC UA server.
 
 ---
 
