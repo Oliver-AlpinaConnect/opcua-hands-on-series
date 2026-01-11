@@ -2,12 +2,6 @@
 
 This repository contains the source code, configuration files, and demonstration projects for the OPC UA Hands-On YouTube series. The goal of this series is to move beyond the theory and show how OPC UA simplifies industrial integration compared to legacy protocols.
 
-To install the repository with git:
-
-```bash
-git clone https://github.com/Oliver-AlpinaConnect/opcua-hands-on-series.git
-````
-
 ## 📺 Video Series Overview
 
 ### 01: Integrate Machines 10x Faster: The Power of OPC-UA
@@ -68,7 +62,7 @@ To follow along with the demos without needing expensive industrial software, I 
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/Oliver-AlpinaConnect/opcua-hands-on-series.git](https://github.com/Oliver-AlpinaConnect/opcua-hands-on-series.git)
+    git clone https://github.com/Oliver-AlpinaConnect/opcua-hands-on-series.git
     cd opcua-hands-on-series
     ```
 
@@ -79,6 +73,12 @@ To follow along with the demos without needing expensive industrial software, I 
     ```bash
     cd 01-metadata/OPC-UA-Gateway
     npm install
+    ```
+
+    or for python
+
+    ```bash
+    pip install -r requirements.txt
     ```
 
 ---
