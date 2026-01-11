@@ -1,0 +1,28 @@
+{
+  "name": "opc-ua-gateway",
+  "version": "1.0.0",
+  "description": "OPC-UA Gateway for Raspberry Pi with Modbus backend",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "opcua",
+    "modbus",
+    "raspberry-pi"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsmodbus": "^4.0.10",
+    "node-opcua": "^2.126.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

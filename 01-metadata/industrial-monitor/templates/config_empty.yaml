@@ -1,0 +1,52 @@
+# Connection settings
+modbus_connection:
+  host: "raspi3.local"
+  port: 5020
+  device_id: 1
+
+opcua_connection:
+  url: "opc.tcp://raspi4.local:4840"
+
+# Modbus Mapping
+# - name: "Ambient Temp"
+#   register: 10
+#   scale: 0.1
+#   unit: "°C"
+#   type: "bool"  # We must manually define that this is a boolean; only if bool
+modbus_tags:
+  - name: "Ambient Temp"
+    register: 
+    scale: 
+    unit: 
+  - name: "Humidity"
+    register: 
+    scale: 
+    unit: 
+  - name: "Gas Resistance"
+    register: 
+    scale: 
+    unit: 
+  - name: "CPU Temp"
+    register: 
+    scale: 
+    unit: 
+  - name: "Fan Status"
+    register: 
+    scale: 
+    type: 
+    unit: 
+
+# OPC-UA Mapping
+# - name: "Ambient Temp"
+#   node_id: "ns=1;i=1012"
+opcua_tags:
+  - name: "Ambient Temp"
+    node_id: 
+  - name: "Humidity"
+    node_id: 
+  - name: "Gas Resistance"
+    node_id: 
+  - name: "CPU Temp"
+    node_id: 
+  - name: "Fan Status"
+    node_id: 
